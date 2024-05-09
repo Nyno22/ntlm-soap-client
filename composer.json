@@ -1,12 +1,12 @@
 {
-    "name": "matejsvajger/ntlm-soap-client",
+    "name": "nyno22/ntlm-soap-client",
     "type": "library",
     "description": "PHP WDSL/Soap Client with NTLM Authentication for Microsoft Dynamics NAT Server.",
     "keywords": [
-        "matejsvajger",
+        "nyno22",
         "ntlm-soap-client"
     ],
-    "homepage": "https://github.com/matejsvajger/ntlm-soap-client",
+    "homepage": "https://github.com/nyno22/ntlm-soap-client",
     "license": "MIT",
     "authors": [
         {
@@ -18,6 +18,7 @@
     ],
     "require": {
         "php": "~5.6|~7.0"
+        "symfony/console": "6.2.13"
     },
     "require-dev": {
         "phpunit/phpunit" : "~4.0||~5.0",
